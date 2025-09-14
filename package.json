@@ -1,0 +1,12 @@
+{
+  "name": "new-school-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "latest"
+  }
+}
